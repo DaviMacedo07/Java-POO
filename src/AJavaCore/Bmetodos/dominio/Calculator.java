@@ -23,5 +23,21 @@ public class Calculator {
         System.out.println("Inside changeTwo");
         System.out.println(n1);
         System.out.println(n2);
+    };
+
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        for(int num:numeros) {
+            soma +=num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somaVarArgs(int... numeros){
+        int soma = 0;
+        for(int num:numeros) {
+            soma +=num;
+        }
+        System.out.println(soma);
     }
 }

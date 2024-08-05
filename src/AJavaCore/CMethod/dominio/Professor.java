@@ -1,4 +1,4 @@
-package AJavaCore.dominio;
+package AJavaCore.CMethod.dominio;
 
 public class Professor {
     public String name;

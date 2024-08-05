@@ -1,4 +1,4 @@
-package AJavaCore.dominio;
+package AJavaCore.CMethod.dominio;
 
 public class Car {
     public String name ;

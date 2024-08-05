@@ -1,6 +1,6 @@
-package AJavaCore.test;
+package AJavaCore.CMethod.dominio.test;
 
-import AJavaCore.dominio.Professor;
+import AJavaCore.CMethod.dominio.Professor;
 
 public class ProfessorTest {
     public static void main(String[] args) {

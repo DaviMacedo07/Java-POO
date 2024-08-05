@@ -1,10 +1,10 @@
-package AJavaCore.test;
+package AJavaCore.CMethod.dominio.test;
 
-import AJavaCore.dominio.Estudante;
+import AJavaCore.CMethod.dominio.EstudanteBelow;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {
-        Estudante estudante = new Estudante();
+        EstudanteBelow estudante = new EstudanteBelow();
         estudante.name = "Davi Macêdo";
         estudante.age = 19;
         estudante.sex = 'M';

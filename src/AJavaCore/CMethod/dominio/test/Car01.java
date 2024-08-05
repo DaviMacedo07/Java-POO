@@ -1,6 +1,6 @@
-package AJavaCore.test;
+package AJavaCore.CMethod.dominio.test;
 
-import  AJavaCore.dominio.Car;
+import  AJavaCore.CMethod.dominio.Car;
 
 public class Car01 {
     public static void main(String[] args) {
