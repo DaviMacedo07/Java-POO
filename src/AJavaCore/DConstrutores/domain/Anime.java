@@ -1,25 +1,35 @@
-package AJavaCore.CSobrecargaMethod.dominio;
+package AJavaCore.DConstrutores.domain;
 
 public class Anime {
     private String name;
-    private String tipe;
+    private String type;
     private int episodes;
     private String gender;
+    private String studio;
 
-    public Anime() {
-
-    }
-    public void init(String name, String tipe, int episodes , String gender) {
+    public Anime(String name, String type, int episodes, String gender) {
+        this();
         this.name = name;
-        this.tipe = tipe;
+        this.type = type;
         this.episodes = episodes;
         this.gender = gender;
     }
+
+    public Anime(String name, String type, int episodes, String gender, String studio) {
+        this(name, type, episodes, gender);
+        this.studio = studio;
+    }
+
+    public Anime() {
+        System.out.println("no arguments");
+    }
+
     public void print() {
         System.out.println(this.name);
-        System.out.println(this.tipe);
+        System.out.println(this.type);
         System.out.println(this.episodes);
         System.out.println(this.gender);
+        System.out.println(this.studio);
     }
 
     public String getGender() {
@@ -38,12 +48,12 @@ public class Anime {
         return this.name;
     }
 
-    public void setTipe(String tipe) {
-        this.tipe = tipe;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public String getTipe() {
-        return this.tipe;
+    public String getType() {
+        return this.type;
     }
 
     public void setEpisodes(int episodes) {
