@@ -1,12 +1,11 @@
 package AJavaCore.FModificadorEstatico.test;
 
-import AJavaCore.EblocosInicialização.domain.Serie;
+import AJavaCore.FModificadorEstatico.domain.Serie;
 
 public class SerieTest01 {
     public static void main(String[] args) {
         Serie serie = new Serie();
-        for (int episode: serie.getEpisodes()) {
-            System.out.print(episode + " ");
-        }
+        Serie serie1 = new Serie();
+        Serie serie2 = new Serie();
     }
 }

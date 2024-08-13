@@ -1,3 +1,5 @@
+package AJavaCore.Init;
+
 public class ArrayMultiDimenssional02 {
     public static void main(String[] args) {
         int[][] arrayInt = new int[3][];
