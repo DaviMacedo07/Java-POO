@@ -1,0 +1,38 @@
+package AJavaCore.Gassociacao.domain;
+
+public class School {
+    private String name;
+    private Teacher[] teachers;
+
+
+    public School (String name, Teacher[] teachers){
+        this.name = name;
+        this.teachers = teachers;
+    }
+    public void print() {
+        System.out.println(this.name);
+        if (teachers == null ) return;
+        for (Teacher teacher: teachers) {
+            System.out.println(teacher.getName());
+        }
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Teacher[] getTeacher() {
+        return teachers;
+    }
+
+    public void setTeacher(Teacher[] teacher) {
+        this.teachers = teacher;
+    }
+
+    public School(String name) {
+        this.name = name;
+    }
+}

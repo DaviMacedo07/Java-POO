@@ -1,3 +1,5 @@
+package AJavaCore.Init;
+
 public class Array01 {
     public static void main(String[] args) {
         int [] idade = {23, 2, 5};
